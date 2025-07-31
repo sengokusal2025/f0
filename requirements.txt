@@ -1,0 +1,25 @@
+# Independent Variable Generator - Requirements
+# This project uses only Python standard library modules
+
+# Python version requirement
+# Requires Python >= 3.6
+
+# Standard library modules used:
+# - argparse (command line argument parsing)
+# - random (random number generation)
+# - os (operating system interface)
+# - csv (CSV file reading and writing)
+# - sys (system-specific parameters and functions)
+# - tempfile (temporary file handling for tests)
+# - pathlib (object-oriented path handling)
+
+# No external dependencies required
+# All functionality is implemented using Python's built-in libraries
+
+# For development and testing:
+# No additional packages required
+
+# Installation instructions:
+# 1. Ensure Python 3.6+ is installed
+# 2. No pip install needed - uses only standard library
+# 3. Run the program directly with: python func.py -o output_folder
