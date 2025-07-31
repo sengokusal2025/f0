@@ -1,0 +1,44 @@
+y=f0()
+
+# Abstract Function Expression for Independent Variable Generator
+# 抽象的関数表現
+
+# This file contains the abstract mathematical representation of the 
+# independent variable generation function used in this project.
+
+# Function Definition:
+# f0() represents the independent variable generation function
+# that produces a set of random variables within a specified range.
+
+# Formal Mathematical Expression:
+# Let f0: ∅ → ℤⁿ where n ∈ ℕ and n ≥ 1
+# f0() = {x₁, x₂, x₃, ..., xₙ} where xᵢ ∈ [1, 1000] ∩ ℤ
+
+# In functional notation:
+# f0() → (x₁, x₂, x₃, ..., xₙ)
+# where each xᵢ is randomly selected from the discrete uniform distribution
+# over the interval [1, 1000]
+
+# Default behavior:
+# f0() ≡ f0(5) = (x₁, x₂, x₃, x₄, x₅)
+
+# Parametric form:
+# f0(n) → (x₁, x₂, x₃, ..., xₙ) where n is the number of variables to generate
+
+# Properties:
+# - Domain: Empty set (no input parameters in basic form)
+# - Codomain: Set of n-tuples of positive integers
+# - Range: [1, 1000]ⁿ ∩ ℤⁿ
+# - Distribution: Discrete uniform over [1, 1000]
+# - Independence: Each xᵢ is independently generated
+
+# Usage Context:
+# The generated independent variables serve as input for mathematical functions:
+# - y = f1(x) = 3*x - 1
+# - y = f2(x) = -6*x + 4
+# where x ∈ f0()
+
+# Implementation Notes:
+# This abstract function is implemented in func.py as generate_random_variables()
+# The output is saved in CSV format with header 'x' for compatibility
+# with the specification requirements.
